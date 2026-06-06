@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+data/raw/
+data/interim/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Data folders (your existing) + outputs
+data/processed/
+data/outputs/
+
+# WRDS credentials
+.pgpass
+wrds_config.json
+*.pgpass
